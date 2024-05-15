@@ -2,6 +2,16 @@
 - 1(a) Explain the following concept with a vivid illustration:"
 A variable that can hold a reference to an obiect of c l a s s A can also hold a reference to an object belonging to any subclass of A'
 ```java
+public class A{
+    
+}
+
+public class B extends  A{
+    public static void main(String[] args) {
+        // this is done using type casting
+        B b = (B) new A(); 
+    }
+}
 
 ```
 - (b) Consider the following code and explain the concept of polymorphism identifying hidden and overridden methods, and overloaded member(s).
