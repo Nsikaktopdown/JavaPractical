@@ -20,7 +20,7 @@ overridden methods
 - magnitude and diameter methods
 ```
 
-- (c) Where could the keyword S u p e r be used? Use S u p e r
+- (c) Where could the keyword Super be used? Use Super
 to resolve overloading issues in (b) above.
 ```java
 public class Object extends myClass {
