@@ -22,6 +22,7 @@ abstract class CourseAb {
 
 
 class Assignment extends CourseAb {
+    @Override
     public void courseCode() {
         System.out.println("The course code is : CSC 481");
     }

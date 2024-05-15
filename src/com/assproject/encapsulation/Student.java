@@ -7,29 +7,28 @@ package com.assproject.encapsulation;
  */
 
 /**
- *
  * @author Me
  */
 
 
-class Student{
+class Student {
     //private data member
-    public String Matno;
+    private String Matno;
     private String name;
 
     //getter and setter method for variables
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public void setName(String name){
-        this.name=name;
+    public void setName(String name) {
+        this.name = name;
     }
 
 
-//    public String getMatno() {
-//        return Matno;
-//    }
+    public String getMatno() {
+        return Matno;
+    }
 
 
     public void setMatno(String Matno) {

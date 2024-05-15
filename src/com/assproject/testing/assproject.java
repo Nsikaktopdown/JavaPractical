@@ -21,6 +21,6 @@ public class assproject {
 
         // Display the set value from the Course class
         System.out.println("Display course: " + course.toString());
-
+        System.out.print("\\\\Can\b\\we\n\\go\t\\fishing?");
     }
 }
